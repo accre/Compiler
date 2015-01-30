@@ -1,0 +1,69 @@
+   
+Running on node:  vmp673
+   
+   
+   
+Running gcc_loop...
+ 
+count: 200000000 result: -39.7474
+
+real	0m24.494s
+user	0m24.401s
+sys	0m0.003s
+ 
+Running gcc_loop_O3...
+ 
+count: 200000000 result: -39.7474
+
+real	0m22.805s
+user	0m22.748s
+sys	0m0.001s
+ 
+Running gcc_powern...
+ 
+sum = 4e+38
+
+real	0m1.804s
+user	0m1.799s
+sys	0m0.000s
+ 
+Running gcc_powern_O3...
+ 
+sum = 4e+38
+
+real	0m1.810s
+user	0m1.799s
+sys	0m0.000s
+ 
+Running intel_loop...
+ 
+count: 200000000 result: -39.7474
+
+real	0m6.067s
+user	0m6.050s
+sys	0m0.002s
+ 
+Running intel_loop_O3...
+ 
+count: 200000000 result: -39.7474
+
+real	0m6.068s
+user	0m6.052s
+sys	0m0.002s
+ 
+Running intel_powern...
+ 
+sum = 4e+38
+
+real	0m0.412s
+user	0m0.408s
+sys	0m0.000s
+ 
+Running intel_powern_O3...
+ 
+sum = 4e+38
+
+real	0m0.412s
+user	0m0.409s
+sys	0m0.000s
+ 
