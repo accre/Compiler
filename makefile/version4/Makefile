@@ -3,11 +3,11 @@ CFLAGS=-I. -O3
 DEPS=myFavoriteFunction.h
 EXE=executable
 
+$(EXE): main.o myFavoriteFunction.o
+	$(CC) -o $(EXE) $^ $(CFLAGS)
+
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
-
-rule: main.o myFavoriteFunction.o
-	$(CC) -o $(EXE) $^ $(CFLAGS)
 
 .PHONY: clean
 
